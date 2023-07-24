@@ -486,6 +486,11 @@ img {
   font-weight: 700;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .header-third {
+    text-align: start;
+  }
+}
 @media screen and (min-width: 1158px) {
   .header-third {
     font-size: 20px;
