@@ -988,10 +988,12 @@ img {
 /* modal window */
 
 .backdrop {
+  margin: 0 auto;
   z-index: 100;
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
   max-width: 392px;
   height: 100%;
