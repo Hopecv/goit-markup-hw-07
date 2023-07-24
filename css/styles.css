@@ -70,6 +70,7 @@ img {
   display: flex;
   max-width: 428px;
   margin: 0 auto;
+  position: relative;
 }
 @media screen and (min-width: 768px) {
   .header {
@@ -90,9 +91,20 @@ img {
     width: 768px;
   }
 }
+@media screen and (min-width: 1158px) {
+  .heads {
+    width: 1158px;
+    justify-content: space-around;
+  }
+}
 .navigat {
   display: flex;
   align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .head {
+    gap: 40px;
+  }
 }
 .link {
   text-decoration: none;
@@ -153,6 +165,18 @@ img {
     display: none;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .data {
+    gap: 40px;
+  }
+}
 
 .address:hover,
 .address:focus {
@@ -172,6 +196,11 @@ img {
   padding: 0;
   background-color: inherit;
   cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .open-menu-btn {
+    display: none;
+  }
 }
 /* Mobile open menu */
 .no-scroll {
