@@ -272,9 +272,9 @@ img {
   color: var(--t-color--);
   margin-bottom: 40px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 428px) {
   .address-li {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 .address-meil-li {
