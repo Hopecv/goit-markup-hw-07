@@ -222,7 +222,8 @@ img {
   overflow: auto;
   width: 100%;
   max-width: 428px;
-  height: 796px;
+  height: 100%;
+  max-height: 800px;
   z-index: 15;
   position: fixed;
   top: 0;
@@ -639,7 +640,7 @@ img {
 .new-cont {
   display: block;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .new-cont {
     width: 584px;
   }
