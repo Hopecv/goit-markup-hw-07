@@ -396,6 +396,7 @@ img {
 @media screen and (min-width: 768px) {
   .header-first {
     font-size: 56px;
+    max-width: 496px;
   }
 }
 .button-first:hover,
